@@ -1,10 +1,11 @@
 import './App.css'
+import RegisterPage from './RegisterPage'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-red-400'>TEST</h1>
+      <RegisterPage/>
     </>
   )
 }
