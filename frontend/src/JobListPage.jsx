@@ -5,7 +5,7 @@ export default function JobListPage() {
   const [jobs, setJobs] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/jobs/')
+    fetch('http://localhost:8000/jobs')
       .then(res => res.json())
       .then(setJobs)
       .catch(err => console.error('Failed to fetch jobs:', err));
